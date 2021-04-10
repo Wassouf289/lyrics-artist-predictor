@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1>The Lyrics that you have typed:</h1> <br>
+  <h5>  {{lyrics['lyrics_txt']}} </h5> <br><br>
+  <h6>is mostly belongs to: {{ artist }} <br>
+    with a probability of: {{prob}}</h6>
+  <br>
+  
+  <br>
+
+  <div class="form-go-back-main">
+  <button onclick="location.href='/'" type="submit" class="btn btn-primary btn-xl">
+  main page
+</button>
+</div>
+  <br>
+  <br>
+
+
+{% endblock %}
