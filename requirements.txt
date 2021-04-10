@@ -4,3 +4,4 @@ spacy
 lyricsgenius
 nltk
 regex
+flask
