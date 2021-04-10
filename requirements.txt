@@ -1,0 +1,6 @@
+scikit-learn
+pandas
+spacy
+lyricsgenius
+nltk
+regex
