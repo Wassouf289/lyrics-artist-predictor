@@ -27,6 +27,7 @@ we used spaCy which is an open-source software library for advanced natural lang
 - clone the repo.
 - install the requirements.
 - you can use the terminal for prediction by running main.py with some lyrics:
+
   python main.py 'lyrics goes here'
 - or you can use the web interface by running: python application.py then go to your browser and type: localhost/5000
 
