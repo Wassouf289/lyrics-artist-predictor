@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form action="/lyrics_artist_prediction">
+  <h1 style=font-size:40px>Lyrics Artist predictor </h1> 
+  <br>
+  <br>
+  <br>
+  <h5> 
+   current Artists list:</h5> <h4>Frank Sinatra , Ed Sheeran , Taylor Swift</h4> <br>
+  <h5>please give some lyrics for one of the artists from the list.
+  </h5>
+   <br>
+  <div class="form_group">
+    <label for="lyrics"><h6>Lyrics text</h6></label>
+    <input type="text" id="lyrics_txt" name="lyrics_txt" placeholder="I found your hairband on my bedroom floor" required/>
+  </div>  
+  <br>
+  <div class="prediction">
+    <button class="btn btn-primary btn-xl text-uppercase" type="submit" name="predict_artist"> predict lyrics artist </button>
+  </div>
+  </form>
+  <br>
+<br>
+{% endblock %}
