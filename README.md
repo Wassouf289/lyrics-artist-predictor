@@ -22,6 +22,7 @@ we used spaCy which is an open-source software library for advanced natural lang
 - remove non alphabetic characters.
 - remove non-Unicode characters.
 <img src="images/spacy.png">
+the 'lyrics' folder contains the original songs, where the 'lyrics_cleaned' contains the songs lyrics after cleaning with spaCy.
 
 ### Usage:
 - clone the repo.
@@ -38,7 +39,7 @@ we used spaCy which is an open-source software library for advanced natural lang
 
 - to build and train a model with different artists, you can change the following in lyrics_classify_model.py:
 
-    artists = ['Frank Sinatra','Ed Sheeran','Taylor Swift']
+    artists = ['Frank Sinatra','Ed Sheeran','Taylor Swift'] #you can choose the artists you want.
     
     max_songs=150   #You can change the max number of songs for an artist
     
