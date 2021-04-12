@@ -33,10 +33,21 @@ we used spaCy which is an open-source software library for advanced natural lang
 
 <img src="images/image1.png">
 
-<img src="images/imag2.png">
+<img src="images/image2.png">
 
 
+- to build and train a model with different artists, you can change the following in lyrics_classify_model.py:
 
+    artists = ['Frank Sinatra','Ed Sheeran','Taylor Swift']
+    
+    max_songs=150   #You can change the max number of songs for an artist
+    
+    and untag these two lines:
+    
+    #collect_songs(artists,max_songs)
+
+    #spacy_cleaner(artists,max_songs)
+    
 ## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
