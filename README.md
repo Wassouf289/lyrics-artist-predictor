@@ -31,6 +31,20 @@ we used spaCy which is an open-source software library for advanced natural lang
   python main.py 'lyrics goes here'
 - or you can use the web interface by running: python application.py then go to your browser and type: localhost/5000
 
+<img src="images/image1.png">
+
+<img src="images/imag2.png">
+
+
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+
+
+
 
 
 
